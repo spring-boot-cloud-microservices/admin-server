@@ -1,6 +1,3 @@
 spring:
-  application:
-    name: admin-server
+  profiles:    active: dev
   boot:    admin:      client:        url: http://localhost:8601
-server:  port: 8601
-  
